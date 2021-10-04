@@ -1,0 +1,115 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"12 C:\Users\20185210\MPLABXProjects\PainelDefeitosRFID.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+"69 C:\Users\20185210\MPLABXProjects\PainelDefeitosRFID.X\lcd.c
+[v _dispLCD_instReg dispLCD_instReg `(v  1 e 1 0 ]
+"102
+[v _dispLCD_dataReg dispLCD_dataReg `(v  1 e 1 0 ]
+"118
+[v _dispLCD_lincol dispLCD_lincol `(v  1 e 1 0 ]
+"124
+[v _dispLCD_init dispLCD_init `(v  1 e 1 0 ]
+"145
+[v _dispLCD dispLCD `(v  1 e 1 0 ]
+"156
+[v _dispLCDstr dispLCDstr `(v  1 e 1 0 ]
+"172
+[v _dispLCD_num dispLCD_num `(v  1 e 1 0 ]
+"215
+[v _dispLCD_clr dispLCD_clr `(v  1 e 1 0 ]
+"221
+[v _dispLCD_B0 dispLCD_B0 `(uc  1 e 1 0 ]
+"226
+[v _dispLCD_B1 dispLCD_B1 `(uc  1 e 1 0 ]
+"14 C:\Users\20185210\MPLABXProjects\PainelDefeitosRFID.X\main.c
+[v _main main `(v  1 e 1 0 ]
+[s S118 . 7 `*.27(v 1 init 1 0 `*.27(v 1 print 1 1 `*.27(v 1 printpos 1 2 `*.27(v 1 printv 1 3 `*.27(v 1 clr 1 4 `*.27(uc 1 B0 1 5 `*.27(uc 1 B1 1 6 ]
+"15 C:\Users\20185210\MPLABXProjects\PainelDefeitosRFID.X/ihm.h
+[v _IHM IHM `S118  1 e 7 0 ]
+[s S41 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1619 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
+[u S50 . 1 `S41 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES50  1 e 1 @136 ]
+[s S30 . 1 `uc 1 BUS 1 0 :4:0 
+`uc 1 RS 1 0 :1:4 
+`uc 1 EN 1 0 :1:5 
+`uc 1 B0 1 0 :1:6 
+`uc 1 B1 1 0 :1:7 
+]
+"26 C:\Users\20185210\MPLABXProjects\PainelDefeitosRFID.X\lcd.c
+[u S36 . 1 `S30 1 . 1 0 ]
+[v _LCDbits LCDbits `VES36  1 e 1 @8 ]
+"14 C:\Users\20185210\MPLABXProjects\PainelDefeitosRFID.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"21
+} 0
+"156 C:\Users\20185210\MPLABXProjects\PainelDefeitosRFID.X\lcd.c
+[v _dispLCDstr dispLCDstr `(v  1 e 1 0 ]
+{
+[v dispLCDstr@str str `*.24DCuc  1 p 1 6 ]
+"169
+} 0
+"118
+[v _dispLCD_lincol dispLCD_lincol `(v  1 e 1 0 ]
+{
+[v dispLCD_lincol@lin lin `uc  1 a 1 wreg ]
+[v dispLCD_lincol@lin lin `uc  1 a 1 wreg ]
+[v dispLCD_lincol@col col `uc  1 p 1 3 ]
+"120
+[v dispLCD_lincol@lin lin `uc  1 a 1 5 ]
+"121
+} 0
+"102
+[v _dispLCD_dataReg dispLCD_dataReg `(v  1 e 1 0 ]
+{
+[v dispLCD_dataReg@d d `uc  1 a 1 wreg ]
+[v dispLCD_dataReg@d d `uc  1 a 1 wreg ]
+"104
+[v dispLCD_dataReg@d d `uc  1 a 1 1 ]
+"115
+} 0
+"124
+[v _dispLCD_init dispLCD_init `(v  1 e 1 0 ]
+{
+"142
+} 0
+"69
+[v _dispLCD_instReg dispLCD_instReg `(v  1 e 1 0 ]
+{
+[v dispLCD_instReg@i i `uc  1 a 1 wreg ]
+[v dispLCD_instReg@i i `uc  1 a 1 wreg ]
+"71
+[v dispLCD_instReg@i i `uc  1 a 1 2 ]
+"99
+} 0
+"12 C:\Users\20185210\MPLABXProjects\PainelDefeitosRFID.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+{
+[v delay@t t `ui  1 p 2 0 ]
+"19
+} 0
