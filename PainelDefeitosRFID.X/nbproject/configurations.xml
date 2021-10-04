@@ -8,6 +8,7 @@
       <itemPath>delay.h</itemPath>
       <itemPath>ihm.h</itemPath>
       <itemPath>lcd.h</itemPath>
+      <itemPath>rfid.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -19,6 +20,7 @@
       <itemPath>delay.c</itemPath>
       <itemPath>lcd.c</itemPath>
       <itemPath>main.c</itemPath>
+      <itemPath>rfid.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

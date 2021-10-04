@@ -10,12 +10,22 @@
 #include "delay.h"
 #include "ihm.h"
 #include "lcd.h"
+#include "rfid.h"
 
 void main(void) 
 {
     IHM.init();
     IHM.print("Iniciando");
-    while(1)
-        ;
     
+    SPI_Initialize_Master();
+   
+    while(1)
+    {   
+        SPI_Write(0X0A);
+        delay(100);
+        SPI_Write(0X0F);
+        delay(100);
+        SPI_Write(0X15);
+        delay(100);
+    }
 }
